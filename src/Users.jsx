@@ -10,8 +10,8 @@ function Users() {
       setLoading(true);
       try {
         const response = await fetch(
-          // "https://node-backend-4b8n.onrender.com/User"
-            "http://localhost:3001/User" // Adjusted to match the local server endpoint
+          "https://node-backend-4b8n.onrender.com/User"
+            // "http://localhost:3001/User" // Adjusted to match the local server endpoint
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
