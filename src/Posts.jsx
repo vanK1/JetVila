@@ -16,8 +16,8 @@ function Posts() {
         // Here you can handle the form submission, e.g., send data to a server
         const response = async () => {
             try {
-                // const res = await fetch('https://node-backend-4b8n.onrender.com/Post', {
-                const res = await fetch('http://localhost:3001/Post', {
+                const res = await fetch('https://node-backend-4b8n.onrender.com/Post', {
+                // const res = await fetch('http://localhost:3001/Post', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
